@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "847910857346-lp6v47daicb3fgscl49s6n40j9nv8tia.apps.googleusercontent.com",
+          "client_id": "847910857346-0agab4k4fhc2aj9pa8bf24sp2spebd5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carlyandlil",
+            "certificate_hash": "74ed306c7c25a7c01f3a355a18b34e1681f495f5"
+          }
+        },
+        {
+          "client_id": "847910857346-d4fq7vri0lgoklh5bjlr05aaftlld27i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +35,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "847910857346-lp6v47daicb3fgscl49s6n40j9nv8tia.apps.googleusercontent.com",
+              "client_id": "847910857346-d4fq7vri0lgoklh5bjlr05aaftlld27i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
