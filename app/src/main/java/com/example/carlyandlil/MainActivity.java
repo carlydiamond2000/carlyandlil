@@ -1,6 +1,9 @@
 package com.example.carlyandlil;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.carlyandlil.Activity2;
 import android.content.Intent;
 import android.os.Bundle;
@@ -88,6 +91,13 @@ public class MainActivity extends AppCompatActivity {
         } catch (ApiException e) {
             // Handle sign-in failure
         }
+        RecyclerView recyclerView = findViewById(R.id.recyclerview);
+        recyclerView.setHasFixedSize(false);
+        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this,1);
+        recyclerView.setLayoutManager(layoutManager);
+
+        UserAdapter adapter = new UserAdapter();
+        recyclerView.setAdapter(adapter);
     }
 }
 
