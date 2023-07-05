@@ -27,6 +27,6 @@ public class UserAdapter extends RecyclerView.Adapter<AddingPicsViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 8;
     }
 }
