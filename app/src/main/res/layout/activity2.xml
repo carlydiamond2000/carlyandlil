@@ -72,28 +72,9 @@
         tools:ignore="HardcodedText" />
 
     <ImageView
-        android:id="@+id/myImageView3"
-        android:layout_width="64dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginEnd="-1dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/schoolfit3"
-        app:layout_constraintDimensionRatio="w,"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/myImageView5"
-        app:layout_constraintTop_toTopOf="@+id/myImageView5" />
-
-    <ImageView
         android:id="@+id/myImageView2"
         android:layout_width="64dp"
         android:layout_height="73dp"
-        android:layout_marginStart="76dp"
         android:layout_marginTop="116dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
@@ -101,117 +82,14 @@
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/schoolfit2"
-        app:layout_constraintStart_toStartOf="@+id/ourLogo"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/myImageView5"
-        android:layout_width="64dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="348dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/schoolfit5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView4" />
-
-    <ImageView
-        android:id="@+id/ourLogo"
-        android:layout_width="63dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="168dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/schoolfit1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/myImageView4"
-        android:layout_width="64dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="340dp"
-        android:layout_marginTop="64dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/schoolfit4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView2" />
-
-    <ImageView
-        android:id="@+id/myImageView10"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="240dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/workfit4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView7" />
-
-    <ImageView
-        android:id="@+id/myImageView11"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="56dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/beachfit1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myImageView12" />
-
-    <ImageView
-        android:id="@+id/myImageView7"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="164dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/workfit1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView13" />
-
-    <ImageView
-        android:id="@+id/myImageView13"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="80dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/beachfit3"
-        app:layout_constraintBottom_toBottomOf="@+id/myImageView11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView11"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="408dp" />
 
     <ImageView
         android:id="@+id/myImageView14"
         android:layout_width="61dp"
         android:layout_height="68dp"
-        android:layout_marginStart="300dp"
+        android:layout_marginStart="250dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
@@ -223,135 +101,49 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/myImageView12"
-        android:layout_width="56dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="52dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/beachfit2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ourLogo" />
-
-    <ImageView
         android:id="@+id/myImageView16"
         android:layout_width="64dp"
         android:layout_height="68dp"
-        android:layout_marginStart="216dp"
+        android:layout_marginStart="16dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit6"
-        app:layout_constraintStart_toStartOf="@+id/myImageView12"
+        app:layout_constraintStart_toEndOf="@+id/myImageView9"
         app:layout_constraintTop_toTopOf="@+id/myImageView9" />
 
     <ImageView
         android:id="@+id/myImageView8"
         android:layout_width="64dp"
         android:layout_height="71dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit2"
-        app:layout_constraintStart_toStartOf="@+id/myImageView12"
+        app:layout_constraintEnd_toStartOf="@+id/myImageView9"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/myImageView2" />
 
     <ImageView
         android:id="@+id/myImageView9"
         android:layout_width="56dp"
         android:layout_height="67dp"
-        android:layout_marginStart="148dp"
+        android:layout_marginStart="16dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
         android:contextClickable="false"
         android:cropToPadding="false"
         android:src="@drawable/workfit3"
-        app:layout_constraintStart_toStartOf="@+id/myImageView12"
+        app:layout_constraintStart_toEndOf="@+id/myImageView8"
         app:layout_constraintTop_toTopOf="@+id/myImageView8" />
-
-    <ImageView
-        android:id="@+id/myImageView20"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="312dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/eveningfit4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView19" />
-
-    <ImageView
-        android:id="@+id/myImageView19"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="240dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/eveningfit3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView18" />
-
-    <ImageView
-        android:id="@+id/myImageView17"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="84dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/eveningfit1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView15" />
-
-    <ImageView
-        android:id="@+id/myImageView15"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="56dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/beachfit5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myImageView11" />
-
-    <ImageView
-        android:id="@+id/myImageView18"
-        android:layout_width="0dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="160dp"
-        android:adjustViewBounds="true"
-        android:background="#E7F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/eveningfit2"
-        app:layout_constraintBottom_toBottomOf="@+id/myImageView17"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myImageView17"
-        app:layout_constraintVertical_bias="0.0" />
 
 
     <ImageView
@@ -414,11 +206,8 @@
         android:layout_width="379dp"
         android:layout_height="93dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="21dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toTopOf="@+id/homepage4"
-        app:layout_constraintEnd_toStartOf="@+id/ourLogo"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/homepage2"
         app:layout_constraintVertical_bias="1.0" />

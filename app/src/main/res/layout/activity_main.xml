@@ -108,13 +108,5 @@
         app:layout_constraintVertical_bias="0.024"
         tools:ignore="HardcodedText" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/my_button50"
-        app:layout_constraintEnd_toStartOf="@+id/password"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ourIntro" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -139,24 +139,6 @@
 
 
     <ImageView
-        android:id="@+id/textbox"
-        android:layout_width="391dp"
-        android:layout_height="111dp"
-        android:layout_marginBottom="92dp"
-        android:adjustViewBounds="true"
-        android:background="#0000F9EF"
-        android:contentDescription="@string/todo1"
-        android:contextClickable="false"
-        android:cropToPadding="false"
-        android:src="@drawable/textbox"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myImageView3"
-        app:layout_constraintVertical_bias="0.87" />
-
-    <ImageView
         android:id="@+id/navbarbackground"
         android:layout_width="426dp"
         android:layout_height="101dp"
@@ -176,19 +158,21 @@
         android:id="@+id/camerabutton5"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="132dp"
+        android:layout_marginEnd="144dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/navigation_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_button5" />
+        app:layout_constraintTop_toBottomOf="@+id/navbarbackground"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/profileb"
         android:layout_width="121dp"
         android:layout_height="80dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="8dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/profile_foreground"
@@ -255,12 +239,44 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="0dp"
         android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/navbarbackground"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="324dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="26dp"
+        app:cardBackgroundColor="@color/material_dynamic_neutral90"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
         app:layout_constraintBottom_toTopOf="@+id/navbarbackground"
-        app:layout_constraintEnd_toStartOf="@+id/homepage9"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_button7"
-        app:layout_constraintVertical_bias="0.571" />
+        app:layout_constraintTop_toBottomOf="@+id/homepage9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
