@@ -29,11 +29,16 @@
         android:id="@+id/camerabutton"
         android:layout_width="121dp"
         android:layout_height="80dp"
+        android:layout_marginTop="9dp"
         android:background="#E7F9EF"
         android:contentDescription="A tiny Android icon"
         android:src="@drawable/navigation_foreground"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="623dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/navbarbackground"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navbarbackground"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:layout_width="121dp"
@@ -61,7 +66,7 @@
         android:layout_width="321dp"
         android:layout_height="393dp"
         android:layout_marginEnd="44dp"
-        android:layout_marginBottom="244dp"
+        android:layout_marginBottom="192dp"
         android:adjustViewBounds="true"
         android:background="#E7F9EF"
         android:contentDescription="@string/todo1"
@@ -71,13 +76,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+
     <Button
         android:id="@+id/my_button90"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="256dp"
         android:layout_height="51dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="340dp"
         android:background="#FFFFFF"
         android:drawableLeft="@drawable/takepic"
         android:drawablePadding="10dp"
@@ -94,11 +100,11 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="256dp"
         android:layout_height="50dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="268dp"
         android:background="#FFFFFF"
-        android:text="Take Photo"
         android:drawableLeft="@drawable/takepic"
+        android:text="Take Photo"
         android:textColor="#212121"
         android:textSize="16sp"
         app:iconTint="#FFFFFF"
@@ -111,12 +117,11 @@
         android:layout_width="234dp"
         android:layout_height="46dp"
         android:layout_marginStart="96dp"
-        android:layout_marginBottom="456dp"
+        android:layout_marginBottom="396dp"
         android:text="Choose Outfit From"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/navbarbackground"
         app:layout_constraintStart_toStartOf="parent" />
-
 
     <ImageButton
         android:id="@+id/backbutton"
@@ -127,5 +132,15 @@
         android:src="@drawable/backbutton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ourLogo1"
+        android:layout_width="396dp"
+        android:layout_height="134dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toEndOf="@+id/backbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

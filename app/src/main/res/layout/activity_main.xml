@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
+    android:id="@+id/google"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_dodgeInsetEdges="bottom|start"
@@ -11,61 +12,65 @@
 
 
     <Button
-        android:id="@+id/my_button10"
+        android:id="@+id/password"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="158dp"
+        android:layout_width="156dp"
         android:layout_height="48dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="52dp"
         android:text="Password"
         android:textColor="#212121"
-        android:textSize="13sp"
+        android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myTextView"
+        app:layout_constraintTop_toBottomOf="@+id/ourIntro"
         tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/my_button50"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="161dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="120dp"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="124dp"
         android:layout_marginTop="164dp"
         android:text="Log in with Google"
         android:textColor="#212121"
-        android:textSize="13sp"
+        android:textSize="11sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/my_button10"
+        app:layout_constraintTop_toTopOf="@+id/password"
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/myTextView"
+        android:id="@+id/ourIntro"
         android:layout_width="158dp"
         android:layout_height="30dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="292dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="121dp"
         android:text="@string/lets_get_dressed"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/myTextView2"
+        android:id="@+id/forgotpassword"
         android:layout_width="156dp"
         android:layout_height="27dp"
         android:layout_marginTop="56dp"
         android:text="@string/forgot_password"
         android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/my_button10" />
+        app:layout_constraintTop_toTopOf="@+id/password" />
 
     <ImageView
-        android:id="@+id/myImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/ourLogo"
+        android:layout_width="402dp"
+        android:layout_height="250dp"
         android:adjustViewBounds="true"
-        android:background="#E7F9EF"
+        android:background="@drawable/logo"
         android:contentDescription="@string/todo"
         android:contextClickable="false"
         android:cropToPadding="false"
@@ -75,7 +80,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/my_button2"
+        android:id="@+id/username"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="156dp"
         android:layout_height="48dp"
@@ -93,15 +98,23 @@
         android:id="@+id/myTextView3"
         android:layout_width="154dp"
         android:layout_height="25dp"
-        android:layout_marginStart="120dp"
+        android:layout_marginStart="144dp"
         android:layout_marginTop="164dp"
         android:text="Not a user? Sign Up"
         android:textSize="11sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/myTextView2"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toTopOf="@+id/forgotpassword"
+        app:layout_constraintVertical_bias="0.024"
         tools:ignore="HardcodedText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/my_button50"
+        app:layout_constraintEnd_toStartOf="@+id/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ourIntro" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

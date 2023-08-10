@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.carlyandlil.Activity2;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -46,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn10 = findViewById(R.id.my_button10);
+        Button btn10 = findViewById(R.id.password);
         btn10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn2 = findViewById(R.id.my_button2);
+        Button btn2 = findViewById(R.id.username);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
