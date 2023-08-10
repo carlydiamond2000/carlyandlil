@@ -8,7 +8,7 @@ public class User {
     public User(int image, String Username, String Password) {
         Image = image;
         Username = username;
-        Password = password;
+        Password = pas
     }
 
     public int getImage() {
